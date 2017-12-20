@@ -17,4 +17,4 @@ b(1).FaceColor = [0.6 0.6 0.6];
 b(2).FaceColor = [0.9 0.9 0.9];
 ylabel('Prediction Accuracy/%');
 legend('iOS','Android');
-set(gca,'xticklabel',{'BN','SVM','Bagging','NN','LMT','LB','RF'});
+set(gca,'xticklabel',{'BN','SVM','Bagging','ANN','LMT','LB','RF'});
