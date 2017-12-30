@@ -9,4 +9,4 @@ hold on;
 plot(x,y2,'r--');
 
 legend('Time-domain','MFCC');
-ylabel('Prediction Accuracy/%');
+ylabel('Inference Accuracy/%');

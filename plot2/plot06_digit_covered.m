@@ -14,6 +14,6 @@ text(x(2)-0.36,y2(2)+2,'78.26');
 text(x(3)-0.36,y2(3)+2,'86.17');
 text(x(4)-0.36,y2(4)+2,'91.28');
 
-ylabel('Prediction Accuracy/%');
+ylabel('Inference Accuracy/%');
 xlabel('Key coverage');
 legend('iOS','Android');

@@ -7,5 +7,5 @@ values1=spcrv([[x(1) x x(end)];[y(1) y y(end)]],3,1000);
 % hold on;
 
 plot(values1(1,:),values1(2,:),'b');
-ylabel('Prediction Accuracy/%');
+ylabel('Inference Accuracy/%');
 % xlabel('Number of MFCC');

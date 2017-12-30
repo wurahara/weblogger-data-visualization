@@ -19,6 +19,6 @@ b(1).FaceColor = [0.9 0.9 0.9];
 b(2).FaceColor = [0.6 0.6 0.6];
 
 
-ylabel('Prediction Accuracy/%');
+ylabel('Inference Accuracy/%');
 legend('Time-domain','MFCC');
 set(gca,'xticklabel',{'Shaking','Walking','Going Upstair'});
